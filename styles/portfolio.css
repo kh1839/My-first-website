@@ -24,8 +24,19 @@ body {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+
+}
+.about-me{
+    background-color: wheat;
+    box-shadow: 20px 20px 50px 15px grey;
 }
 
+.section-tt{
+    background-color: wheat;
+    box-shadow: 20px 20px 50px 15px grey;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .section-description {
     color: #757575;
     text-align: center;
@@ -64,10 +75,11 @@ nav a {
 
 /* header related styles */
 .header {
-    background-color: #FFF8F3;
+    background-color: wheat;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
+    box-shadow: 20px 20px 50px 15px grey;
 }
 
 .banner {
@@ -114,6 +126,9 @@ main section {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
+    background-color: wheat;
+    box-shadow: 20px 20px 50px 15px grey;
+
 }
 
 .about-info-container {
@@ -147,7 +162,11 @@ main section {
 
     border-radius: 5px;
     background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: honeydew;
+    box-shadow: 20px 20px 50px 15px grey;
+    border-color: #181818;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .skill-description {
@@ -198,7 +217,10 @@ footer {
     gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
-    padding: 130px 200px;
+    padding: 100px 100px;
+    background-color: wheat;
+    box-shadow: 20px 20px 50px 15px grey;
+    margin-bottom: 50px;
 }
 
 .footer-column {
