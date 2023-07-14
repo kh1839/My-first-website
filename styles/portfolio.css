@@ -286,4 +286,7 @@ textarea {
     nav li{
         margin-right: 35px;
     }
+    .btn-primary{
+        padding: 12px 20px;
+    }
     }
