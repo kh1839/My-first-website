@@ -283,4 +283,7 @@ textarea {
     .contact{
         width: 80%;
     }
+    nav li{
+        margin-right: 35px;
+    }
     }
