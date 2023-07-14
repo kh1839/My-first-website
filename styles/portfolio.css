@@ -277,5 +277,10 @@ textarea {
     .header{
         background-image: none;
     }
+    .footer-column{
+        width: 100%;
     }
-}
+    .contact{
+        width: 80%;
+    }
+    }
