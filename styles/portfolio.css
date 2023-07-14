@@ -17,6 +17,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    
 }
 
 .section-title {
@@ -26,14 +27,10 @@ body {
     font-weight: 700;
 
 }
-.about-me{
-    background-color: wheat;
-    box-shadow: 20px 20px 50px 15px grey;
-}
+
 
 .section-tt{
-    background-color: wheat;
-    box-shadow: 20px 20px 50px 15px grey;
+
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -48,7 +45,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 150px;
+    margin: 0 50px 0px 150px;
 }
 
 .nav-title {
@@ -75,11 +72,11 @@ nav a {
 
 /* header related styles */
 .header {
-    background-color: wheat;
+    
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
-    box-shadow: 20px 20px 50px 15px grey;
+    
 }
 
 .banner {
@@ -126,8 +123,7 @@ main section {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
-    background-color: wheat;
-    box-shadow: 20px 20px 50px 15px grey;
+    
 
 }
 
@@ -163,7 +159,6 @@ main section {
     border-radius: 5px;
     background: #FFF;
     background-color: honeydew;
-    box-shadow: 20px 20px 50px 15px grey;
     border-color: #181818;
     border-style: solid;
     border-width: 2px;
@@ -218,8 +213,7 @@ footer {
     background: #FFF8F3;
     margin-top: 100px;
     padding: 100px 100px;
-    background-color: wheat;
-    box-shadow: 20px 20px 50px 15px grey;
+    
     margin-bottom: 50px;
 }
 
@@ -242,4 +236,46 @@ textarea {
     border: 0;
     width: 100%;
 }
-
+@media screen and (max-width: 576px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .banner{
+        padding: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner .profile-pic {
+        width: 520px;
+    }
+    .btn-primary{
+        margin-top: 10px;
+    }
+    .about{
+        padding: 0px;
+    }
+    #what-i-do-description{
+        padding: 0px;
+    }
+    .skills-container, .resume-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+    }
+    .about-info-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header{
+        background-image: none;
+    }
+    }
+}
