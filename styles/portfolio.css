@@ -248,7 +248,7 @@ textarea {
         flex-direction: column-reverse;
     }
     .banner .profile-pic {
-        width: 520px;
+        width: 100vw;
     }
     .btn-primary{
         margin-top: 10px;
@@ -289,4 +289,5 @@ textarea {
     .btn-primary{
         padding: 12px 20px;
     }
+    
     }
